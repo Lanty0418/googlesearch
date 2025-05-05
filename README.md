@@ -13,10 +13,13 @@ Custom Search JSON API 獲取及說明網址 : [Custom Search JSON API](https://
 
 搜尋引擎設定網址 : https://programmablesearchengine.google.com/controlpanel/create
 
-推理
+#推理
 
 AI.py : 推理的一個簡單範例，但還有一些問題，我還沒處理，所以參考就好。
 
 目前的問題是Token數的限制。
 
 API KEY 要在記得做更換
+#模型訓練
+fakenews.py : 訓練的程式
+predict.py : 測試程式
