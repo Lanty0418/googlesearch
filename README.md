@@ -1,4 +1,5 @@
-# googlesearch
+# 說明
+## googlesearch
 gemini.py :是用genimi 使用google search的搜尋到的內容去做推理。
 
 gemini API取得網址 : https://aistudio.google.com/apikey
@@ -13,13 +14,20 @@ Custom Search JSON API 獲取及說明網址 : [Custom Search JSON API](https://
 
 搜尋引擎設定網址 : https://programmablesearchengine.google.com/controlpanel/create
 
-#推理
+## 推理
 
+PROMPT 優化可參考網址 : https://cloud.tencent.com/developer/article/2400651  
 AI.py : 推理的一個簡單範例，但還有一些問題，我還沒處理，所以參考就好。
 
 目前的問題是Token數的限制。
 
 API KEY 要在記得做更換
-#模型訓練
+
+## 模型訓練
+
 fakenews.py : 訓練的程式
-predict.py : 測試程式
+
+predict_model.py : 測試程式
+
+模型訓練參考網址:
+https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html
