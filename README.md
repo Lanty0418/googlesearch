@@ -31,3 +31,6 @@ predict_model.py : 測試程式
 
 模型訓練參考網址:
 https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html
+
+##整合SLM+LLM
+可參考程式碼及論文-superICL :https://github.com/JetRunner/SuperICL 
