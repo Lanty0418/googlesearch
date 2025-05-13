@@ -30,7 +30,7 @@ fakenews.py : 訓練的程式
 predict_model.py : 測試程式
 
 模型訓練參考網址:
-https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html
+https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html 
 假消息訓練參考網址
 https://ithelp.ithome.com.tw/m/articles/10296141
 
