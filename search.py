@@ -7,8 +7,8 @@ Created on Sun Mar 30 16:09:35 2025
 """簡略的搜尋"""
 import requests
 import json
-API_KEY = "AIzaSyBKUnW44xp7n5R2uZF-cLE5qQNVFNm9x5E"  # 申請 API Key
-CX = "3297253fb8ddd402f"  # 自訂搜尋引擎 ID
+API_KEY = "APIKEY"  # 申請 API Key
+CX = "CXKEY"  # 自訂搜尋引擎 ID
 
 query = "緬甸大地震"
 url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={API_KEY}&cx={CX}"
@@ -32,8 +32,8 @@ import json
 from bs4 import BeautifulSoup
 
 # Google 搜尋 API 設定
-API_KEY = "AIzaSyBKUnW44xp7n5R2uZF-cLE5qQNVFNm9x5E"  # 申請 API Key
-CX = "3297253fb8ddd402f"  # 自訂搜尋引擎 ID
+API_KEY = "APIKEY"  # 申請 API Key
+CX = "CXKEY"  # 自訂搜尋引擎 ID
 query = "緬甸大地震"
 
 # Google 搜尋 API 請求
