@@ -12,7 +12,7 @@ Original file is located at
 from google import genai
 from google.genai.types import Tool, GenerateContentConfig, GoogleSearch
 
-client = genai.Client(api_key='AIzaSyA_0T5q_GV--PVEDX2Hu36LyNqsvMH9elU')
+client = genai.Client(api_key='APIKEY')
 model_id = "gemini-2.0-flash"
 
 # 定義 Google 搜尋工具
